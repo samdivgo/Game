@@ -12,7 +12,7 @@ def ask_yes_no(question):
     return response
 
 def ask_number(question,low,high):
-    """Просит вести число из диапозона"""
+    """Просит ввести число из диапозона"""
     respones=None
     while respones not in range(low,high):
         respones=int(input(question))
